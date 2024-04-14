@@ -1,24 +1,37 @@
 /*style.css文件*/
 /*class 为style1的样式，字体大小为large，字体颜色为橙黄色*/
+body{
+    background-color:#e0ffff;
+
+    justify-content: center;
+    align-items: center;
+    border: #00F4F4 3px solid;
+    margin-top: 50px;
+    margin-left:20% ;
+    margin-bottom: 50px;
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+}
 .style1{
     font-size: large;
-    color: #FFFF33;
+    color: #00F4F4;
 }
 
 /*class 为style2的样式，字体颜色为橙黄*/
 .style2{
-    color: #FFFF33;
+    color: #00F4F4;
 }
 
 /*宽度为500px，高度为240px*/
 .style3{
     width: 500px;
-    height: 240px;
+    height: 140px;
 }
 
 /*宽度为1500px，高度为50px*/
 .style4{
-    width: 1500px;
+    width: 160%;
     height: 50px;
 }
 
@@ -34,20 +47,11 @@
     font-family: 黑体;
 }
 
-body{
-    border: #CCCC00 3px solid;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 60%;
-    height: 1300px;
-    padding: 20px;
-}
+
 
 /*定义table样式*/
-table{
-    border-style: none;
-    border-color: inherit;      /* 表格边框样式，颜色宽度 */
-    border-width: 5px;
+table{         
+    border-width: 5px;/* 表格边框样式，颜色宽度 */
     width: 100%;
     height: 10%;
     padding: 5px;
@@ -56,5 +60,5 @@ table{
 /*定义h2样式*/
 .h2{
     color: #000000;                 /* 颜色黑色 */
-    background-color: #FFFF33;      /* 背景颜色橙黄 */
+    background-color: #00F4F4;      /* 背景颜色橙黄 */
 }
